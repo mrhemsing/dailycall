@@ -8,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const seoRoutes = new Set(seoLandingPages.map((page) => `/${page.slug}`));
   const routes = [
     "",
-    "/about",
     "/pricing",
     "/faq",
     "/signup",
